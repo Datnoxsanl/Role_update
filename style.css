@@ -1,0 +1,65 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  /* margin-top: 50px; */
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.update_page{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+
+}
+
+.update_user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.update{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} 
+
+/* .ipnut{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+} */
+input{
+  width: 250px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
